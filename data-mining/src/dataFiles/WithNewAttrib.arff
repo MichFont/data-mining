@@ -1,0 +1,24 @@
+@relation weather
+
+@attribute outlook {sunny,overcast,rainy}
+@attribute YearInSchool {Freshman,Sophmore,Junior,Seniors}
+@attribute temperature numeric
+@attribute humidity numeric
+@attribute windy {TRUE,FALSE}
+@attribute play {yes,no}
+
+@data
+sunny,Freshman,85,85,FALSE,no
+sunny,Freshman,80,90,TRUE,no
+overcast,Freshman,83,86,FALSE,yes
+rainy,Freshman,70,96,FALSE,yes
+rainy,Freshman,68,80,FALSE,yes
+rainy,Freshman,65,70,TRUE,no
+overcast,Freshman,64,65,TRUE,yes
+sunny,Freshman,72,95,FALSE,no
+sunny,Freshman,69,70,FALSE,yes
+rainy,Freshman,75,80,FALSE,yes
+sunny,Freshman,75,70,TRUE,yes
+overcast,Freshman,72,90,TRUE,yes
+overcast,Freshman,81,75,FALSE,yes
+rainy,Freshman,71,91,TRUE,no
